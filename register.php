@@ -34,15 +34,11 @@
                 <form action="process/RegisterLogin.php" method="POST" class="pt-3">
 
                   <div class="form-group">
-                    <input type="text" class="form-control form-control-lg" id="exampleInputFirstname1" name="firstname" placeholder="Firstname">
+                    <input type="text" class="form-control form-control-lg" id="exampleInputFullname1" name="fullname" placeholder="Fullname">
                   </div>
 
                   <div class="form-group">
-                    <input type="text" class="form-control form-control-lg" id="exampleInputFullname1" name="lastname" placeholder="Lastname">
-                  </div>
-
-                  <div class="form-group">
-                    <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" name="email" placeholder="Email">
+                    <input type="text" class="form-control form-control-lg" id="exampleInputUsername" name="username" placeholder="Username">
                   </div>
 
                   <div class="form-group">

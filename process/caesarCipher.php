@@ -1,6 +1,6 @@
 <?php
 
-function encryptPassword($string) 
+function encryptPass($string) 
 {
     $key = 5;
     $kalimat = $string;
@@ -16,7 +16,7 @@ function encryptPassword($string)
     return $hsl;
 }
 
-function decryptPassword($string)
+function decryptPass($string)
 {
     $key = 5;
     $isi = $string;
